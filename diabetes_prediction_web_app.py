@@ -10,7 +10,7 @@ import pickle
 import streamlit as st
 
 
-loaded_model=pickle.load(open('C:/Users\manoj kulkarni/OneDrive/Desktop/machine learning/models/trained_model.sav','rb'))
+loaded_model=pickle.load(open('trained_model.sav','rb'))
 
 
 #creating a function for prediction
@@ -59,6 +59,5 @@ def main():
     st.success(diagnosis)
     
     
-if __name__=='__main__':
-    main()
+
     
